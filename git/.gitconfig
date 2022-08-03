@@ -2,4 +2,7 @@
   name = Srinivas Krishnan
   email = shrin.krishnan@gmail.com
 
+# Keep work separate
+[includeIf "gitdir:~/work/"] 
+  path = ~/work/.gitconfig
 
